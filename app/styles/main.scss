@@ -1,0 +1,428 @@
+@import 'reset';
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.2;
+}
+
+hr {
+	color: rgb(235, 235, 160);
+	clear: right;
+}
+
+
+// *********************
+// *	   HEADER 	   *
+// *********************
+
+#top-contact {
+	background-color: rgb(52, 117, 197);
+	width: 150px;
+	float: right;
+	margin-right: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;	
+	clear: both;
+	text-align: center;
+	padding: 7px;
+}
+.contact-logo {
+	color: white;
+	border-radius: 100px;
+	font-size: 2.5em;
+	margin: 3px;
+}
+
+#logo {
+	display: inline-block;
+	padding-bottom: 7px;
+}
+
+
+#logo-pic-main {
+	display: inline-block;
+}
+
+#logo-pic {
+	height: 115px;
+	width: 115px;
+	padding-top: 43px;
+	padding-left: 25px;
+}
+
+#logo-text {
+	clear: both;
+	display: inline-block;
+	color: rgb(100,100,100);
+	width: 200px;
+	vertical-align: top;
+	padding-top: 58px;
+}
+
+.main-text {
+	font-size: 3em;
+	display: inline-block;
+}
+
+
+#hamburger-menu {
+	clear: both;
+	width: 125px;
+	border: 1px solid rgb(218,218,218);
+	margin-right: 5px;
+	border-radius: 5px;
+	float: right;
+	margin-bottom: 12px;
+	font-size: 1.25em;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: 900;
+}
+
+
+// *********************
+// *	INFO-BOXES	   *
+// *********************
+
+#info-boxes {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#info-header {
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#info-header-tagline {
+	font-size: 3em;
+	margin: 12% 12% 0% 12%;
+	font-weight: 200;
+}
+
+#info-header-subline {
+	font-size: 1.5em;
+	margin-top: 2%;
+}
+
+#buy-theme-button {
+	background-color: rgb(52, 117, 197);
+	color: white;
+	width: 178px;
+	padding: 15px 20px;
+	font-size: 1.25em;
+	font-weight: 200;
+	border-radius: 8px;
+	text-align: center;
+	margin-left: 33%;
+	margin-right: 33%;
+	margin-top: 5%;
+	margin-bottom: 17%;
+}
+
+
+.info-box {
+	text-align: center;
+	margin-top: 8%;
+	line-height: 1.6;
+}
+
+.info-box h3 {
+	padding-top: 2.5%;
+	padding-bottom: 1.35%;
+	font-size: 1.25em;
+	font-weight: 900;
+}
+
+.info-body {
+	font-size: 1.05em;
+}
+
+.info-pic{
+	width: 250px;
+	height: 125px;
+}
+
+
+
+// *********************
+// *	PORTFOLIO	   *
+// *********************
+
+#portfolio {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+#portfolio-box-header {
+	margin-top: 150px;
+	text-align: center;
+	line-height: 1.1;
+}
+
+#portfolio-box-header h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#portfolio-box-header h2 {
+	font-size: 1.25em;
+	margin-top: 10px;
+	color: rgb(165, 154, 160);
+	font-weight: 300;
+	margin-bottom: 18px;
+}
+
+.portfolio-pic-1 {
+	margin-top: 24px;
+	height: 295px;
+	width: 100%;
+}
+
+.portfolio-pic {
+	margin-top: 39px;
+	height: 295px;
+	width: 100%;
+}
+
+.portfolio-box {
+	text-align: center;
+}
+
+.portfolio-box h2 {
+	font-size: 1.25em;
+	margin-top: 20px;
+	color: rgb(52, 117, 197);
+}
+
+.portfolio-box h3 {
+	margin-top: 13px;
+	font-size: 0.85em;
+	margin-bottom: 17px;
+	color: rgb(165, 154, 160);
+}
+
+
+// *********************
+// *	 CLIENTS	   *
+// *********************
+
+#clients {
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+}
+
+#header {
+	text-align: center;
+}
+
+#header hr {
+	margin-bottom: 25px;
+}
+
+
+#header h1 {
+	margin-top: 90px;
+	font-size: 1.4em;
+	display: inline-block;
+	color: rgb(83, 83, 83);
+	margin-bottom: 20px;
+}
+
+#header h2 {
+	display: inline-block;
+	margin-left: 10px;
+	color: rgb(165, 154, 160);
+}
+
+.client {
+	padding: 1.5em 1em 1.5em 1em;
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.client-pic {
+	height: 95px;
+	width: 180px;
+}
+
+
+// *********************
+// *	 FOOTER 	   *
+// *********************
+
+#footer {
+	margin-top: 43px;
+	background-color: rgb(33, 33, 33);
+	color: rgb(181, 181, 181);
+	padding-top: 61px;
+}
+
+
+#twitter-review {
+	background-color: rgb(28, 28, 28);
+	color: rgb(181, 181, 181);
+	border-top: 2px solid black;
+	border-bottom: 2px solid rgb(21, 21, 21);
+	padding-top: 37px;
+	padding-bottom: 25px;
+	font-size: 1.1em;
+}
+#twitter-logo {
+	text-align: center;
+}
+#twitter-logo i {
+	font-size: 5em;
+	color: rgb(57, 122, 202);
+	padding-bottom: 52px;
+}
+#review {
+	border-left: 6px solid rgb(147, 147, 147);
+	margin-left: 7%;
+	margin-right: 7%;
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-bottom: 18px;
+	line-height: 1.5;
+}
+#review a {
+	text-decoration: none;
+	color: rgb(45, 96, 147);
+}
+#review-signature {
+	display: inline-block;
+	color: white;
+
+}
+#review-signature-date {
+	display: inline-block;
+	color: rgb(43, 91, 142);
+}
+
+
+#about-us {
+	padding-top: 95px;
+	margin-left: 4.5%;
+	margin-right: 4.5%;
+	line-height: 1.6;
+}
+#about-us h1 {
+	font-size: 1.15em;
+	padding-bottom: 35px;
+}
+#about-text {
+	padding-bottom: 4px;
+}
+.about-info {
+	line-height: 2.35;
+}
+
+
+
+#news {
+	margin-left: 4.5%;
+	margin-right: 4.5%;
+	display: inline-block;
+}
+#news h1 {
+	padding-top: 43px;
+	font-size: 1.3em;
+	padding-bottom: 38px;
+}
+.post {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.post-pic {
+	width: 85px;
+	margin: 0px;
+	display: inline-block;
+}
+.post-pic img {
+	height: 91px;
+	width: 85px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	display: inline-block;
+}
+.post-text {
+	display: inline-block;
+	width: 375px;
+	padding-left: 8px;
+	vertical-align: top;
+}
+.post-text h2 {
+	display: inline-block;
+	color: rgb(40, 87, 131);
+}
+.post-text div {
+	display: inline-block;
+}
+.date-box {
+	background-color: black;
+	border-left: 1px solid rgb(40, 87, 131);
+	color: white;
+	display: inline-block;
+	padding: 20px 10px;
+	vertical-align: top;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+
+#flickrfeed {
+	font-size: 1.3em;
+	margin-top: 30px;
+	margin-left: 4.5%;
+	margin-right: 4.5%;
+	display: inline-block;
+	margin-bottom: 122px;
+}
+
+#flickr-pic-group {
+	margin-top: 40px;
+	display: inline-block;
+}
+.flickr-pic {
+	display: inline-block;
+}
+
+.flickr-pic img {
+	height: 75px;
+	width: 75px;
+	border-radius: 7px;
+	margin: 3px;
+}
+#photgrapher {
+	margin-top: 10px;
+	font-size: 0.8em;
+}
+
+#photgrapher a {
+	text-decoration: none;
+	color: rgb(40, 87, 131);
+}
+
+
+#copyright-footer {
+	height: 85px;
+	color: rgb(65, 154, 160);
+	background-color: rgb(14, 14, 14);
+	border-top: 2px solid black;
+}
+
+#copyright {
+	padding-top: 20px;
+	padding-left: 25px;
+}
+
+#creator {
+	float: right;
+	padding-right: 12px;
+}
