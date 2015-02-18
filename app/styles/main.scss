@@ -1,5 +1,8 @@
 @import 'reset';
 
+$tablet: 619px;
+
+$desktop: 1000px;
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -60,7 +63,13 @@ hr {
 	padding-top: 58px;
 }
 
-.main-text {
+.main-text-one {
+	font-size: 3em;
+	display: inline-block;
+	font-weight: light;
+}
+
+.main-text-two {
 	font-size: 3em;
 	display: inline-block;
 }
@@ -79,6 +88,38 @@ hr {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-weight: 900;
+	@media (min-width: 619px) {
+		margin-top: 1em;
+	}
+}
+
+
+// *********************
+// *	  CAROUSEL	   *
+// *********************
+
+.image {
+	//display: none;
+	height: 315px;
+	width: 620px;
+	position: relative;
+	width: 100%;
+}
+
+.pic-text {
+	display: block;
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	width: 100%;
+}
+
+.img-h3 {
+	display: block;
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	width: 100%;
 }
 
 
@@ -93,22 +134,27 @@ hr {
 
 #info-header {
 	text-align: center;
-	margin-top: 10%;
-	margin-bottom: 10%;
+	padding: 2.8em 0 2.1em 0;
 }
 
 #info-header-tagline {
 	font-size: 3em;
-	margin: 12% 12% 0% 12%;
+	padding: 0.35em 0.35em 0 0.35em;
 	font-weight: 200;
 }
 
 #info-header-subline {
 	font-size: 1.5em;
-	margin-top: 2%;
+	line-height: 2.3;
+}
+
+#buy-theme {
+	text-align: center;
+	padding-bottom: 3.89em;
 }
 
 #buy-theme-button {
+	text-decoration: none;
 	background-color: rgb(52, 117, 197);
 	color: white;
 	width: 178px;
@@ -117,10 +163,8 @@ hr {
 	font-weight: 200;
 	border-radius: 8px;
 	text-align: center;
-	margin-left: 33%;
-	margin-right: 33%;
-	margin-top: 5%;
-	margin-bottom: 17%;
+
+
 }
 
 

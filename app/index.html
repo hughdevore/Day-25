@@ -9,7 +9,8 @@
     <!-- build:css styles/vendor.css -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!-- bower:css -->
-    <link href="../bower_components/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/bower_components/fontawesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -43,8 +44,8 @@
           <img id="logo-pic" src="images/restart_logo.png" alt="this image is out on vacation">
         </div>
         <div id="logo-text">
-          <div class="main-text">{re}</div>
-          <div class="main-text">start</div>
+          <div class="main-text-one">{re}</div>
+          <div class="main-text-two">start</div>
           <br>
           <div class="sub-text">a multipurpose template</div>
         </div>
@@ -58,6 +59,54 @@
       <hr class="hr">
     </div>
 
+
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+     
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+
+        <div class="item active">
+          <div class="image">
+            <img src="images/1.jpg" alt="...">
+            <div class="pic-text">makes <b>real use</b><br>of the power of <b>{less}</b> syntax!</div>
+            <div class="pic-text">Restart was built with heavy use of {less} technology, making the life of<br> the web designer easier!</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="image">
+            <img src="images/2.jpg" alt="...">
+            <h2><span class="img-h2">makes <b>real use</b><br>of the power of <b>{less}</b> syntax!</span></h2>
+            <h2><span class="img-h3">Restart was built with heavy use of {less} technology, making the life of<br> the web designer easier!</span></h2>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="image">
+            <img src="images/3.jpg" alt="...">
+            <h2><span class="img-h2">makes <b>real use</b><br>of the power of <b>{less}</b> syntax!</span></h2>
+            <h3><span class="img-h3">Restart was built with heavy use of {less} technology, making the life of<br> the web designer easier!</span></h3>
+          </div>
+        </div>
+
+      </div>
+     
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div> <!-- Carousel -->
+
+
     <div id="info-boxes">
       <div id="info-header">
         <h1 id="info-header-tagline">
@@ -66,9 +115,9 @@
         <h2 id="info-header-subline">
           and make the web a little bit prettier
         </h2>
-        <div id="buy-theme-button">
-          Buy this theme!
-        </div>
+      </div>
+      <div id="buy-theme">
+        <a href="#about-us" id="buy-theme-button">Buy this theme!</a>
       </div>
 
       <div class="info-box">
@@ -96,6 +145,7 @@
       </div>
     </div>
 
+    
     <div id="portfolio">
       <div id="portfolio-box-header">
         <h1>Recent Work or Projects from Portfolio</h1>
@@ -273,6 +323,7 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
